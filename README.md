@@ -1,6 +1,7 @@
 项目说明（中文）
 =========================
-Spring Cloud简单示例，包括Eureaka, Zuul, Ribbon, Feign等组件的基本使用。
+## 项目初衷
+Spring Cloud简单示例，包括Eureaka, Zuul, Ribbon, Feign等组件的基本使用。让大家能快速了解和学习Spring Cloud.
 
 ## 一张图带你了解Spring Cloud的世界
 ![Alt text](https://github.com/TimRowe/spring-cloud-examples/blob/master/SpringCloud.png)
@@ -15,7 +16,8 @@ Spring Cloud简单示例，包括Eureaka, Zuul, Ribbon, Feign等组件的基本�
 
 Project Description (English)
 =========================
-Simple examples of Spring Cloud include basic use of components such as Eureaka, Zuul, Ribbon, Feign, etc.
+## Project purpose
+Simple examples of Spring Cloud include basic use of components such as Eureaka, Zuul, Ribbon, Feign, etc. Let you quickly understand and learn about the Spring Cloud.
 
 ## A diagram to take you through the world of the Spring Cloud
 ![Alt text](https://github.com/TimRowe/spring-cloud-examples/blob/master/SpringCloud.png)
