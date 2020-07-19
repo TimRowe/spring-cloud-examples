@@ -1,0 +1,18 @@
+#客户端在注册中心里的名字  服务之间相互调用一般根据这个name
+spring:
+  application:
+    name: b
+
+#端口
+server:
+  port: 8090
+
+#作为client注册到eureka
+eureka:
+  client:
+    service-url:
+      default: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+
+
