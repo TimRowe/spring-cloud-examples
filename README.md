@@ -11,6 +11,8 @@ Spring Cloud简单示例，包括Eureaka, Zuul, Ribbon, Feign等组件的基本�
 - 运行zuul-server（对应端口8769），在Eureka看到注册成功后，直接打开zuul-server对应的网关地址 http://localhost:8769/a/hi 可访问到服务a的接口，重复刷新可看到返回的端口信息发生变更，说明通过网关访问服务a已实现均衡负载。  
 - 运行service-b项目(对应端口8090)，打开 http://localhost:8090/hi 查看服务是否启动。然后打开 http://localhost:8090/callA 查看B服务调用A服务接口情况。应该跟步骤3类似，没刷新一次返回的端口都发生变更，说明微服务之间通过Feign调用也已实现均衡负载。  
 
+
+
 Project Description (English)
 =========================
 Simple examples of Spring Cloud include basic use of components such as Eureaka, Zuul, Ribbon, Feign, etc.
